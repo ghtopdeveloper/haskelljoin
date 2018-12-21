@@ -10,7 +10,7 @@ import System.Directory
 
 gatherLinks :: Node -> [Url]
 gatherLinks (Node _ (LINK url _) ns) = url : concatMap gatherLinks ns
-gatherLinks (Node _ _ ns) = concatMap gatherLinks ns
+// gatherLinks (Node _ _ ns) = concatMap gatherLinks ns
 
 isMarkdown :: FilePath -> Bool
 isMarkdown = isSuffixOf ".md"
