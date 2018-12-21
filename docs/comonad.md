@@ -1,5 +1,3 @@
-# コモナド
-モナドの圏論的双対
 
 ```hs
 class Functor w => Comonad w where
