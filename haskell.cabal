@@ -9,6 +9,8 @@ copyright:           2016 Tatsuya Hirose
 build-type:          Simple
 cabal-version:       >=1.10
 
+
+
 executable maintenance
   hs-source-dirs:      maintenance
   main-is:             Main.hs
